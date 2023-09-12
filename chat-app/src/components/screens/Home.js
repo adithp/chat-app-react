@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import OnlineFriends from './OnlineFriends';
 function home() {
   return (
     <HomeContainer>
@@ -48,11 +49,7 @@ function home() {
                         <Dots src={require("../../Assets/images/Option.svg").default} alt="dots" />
                     </RoundIconContainerDots>
                 </MyProfileContainer>
-                <Onlinecontainer>
-                    <SearchContainer></SearchContainer>
-                    <OnlineFriends></OnlineFriends>
-                </Onlinecontainer>
-                <ContactsListSection></ContactsListSection>
+                <OnlineFriends />
             </ProfileContainer>
             <MainContainer></MainContainer>
             <ProfileDetailsContainer></ProfileDetailsContainer>
@@ -218,22 +215,6 @@ align-items: center;
 const Dots = styled.img`
 width: 60%;
 display: block;
-`;
-
-const Onlinecontainer = styled.div`
-
-`;
-
-const SearchContainer = styled.div`
-
-`;  
-
-const OnlineFriends = styled.div`
-
-`;
-
-const ContactsListSection = styled.div`
-
 `;
 
 
