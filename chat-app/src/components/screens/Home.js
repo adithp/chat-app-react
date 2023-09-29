@@ -37,22 +37,8 @@ function home() {
             </AddContactsContainer>
             </ControlContainer>
             <ProfileContainer>
-                <MyProfileContainer>
-                    <ProfileImageContainer>
-                        <ProfileImage src={require("../../Assets/images/01.jpg")} alt="Profile (1)" />
-                    </ProfileImageContainer>
-                    <NameContainer>
-                        <ProfileHeadeing>Bujange bapak</ProfileHeadeing>
-                        <SpanAccount>My Account</SpanAccount>
-                    </NameContainer>
-                    <RoundIconContainerDots>
-                        <Dots src={require("../../Assets/images/Option.svg").default} alt="dots" />
-                    </RoundIconContainerDots>
-                </MyProfileContainer>
                 <OnlineFriends />
             </ProfileContainer>
-            <MainContainer></MainContainer>
-            <ProfileDetailsContainer></ProfileDetailsContainer>
         </Wrapper>
     </HomeContainer>
   )
@@ -61,7 +47,7 @@ function home() {
 
 
 const HomeContainer = styled.div`
-height: 100vh;
+
 `;
 const Wrapper = styled.div`
 display: flex;
@@ -69,7 +55,8 @@ display: flex;
 `;
 const ControlContainer = styled.div`
 width:8%;
-height: 100vh;
+min-height: 100vh;
+height: auto;
 background-color: #161B1C;
 display: flex;
 flex-direction: column;
@@ -77,15 +64,6 @@ justify-content: space-between;
 padding-top: 44px;
 padding-bottom: 88px;
 box-sizing: border-box;
-`;
-const MainContainer = styled.div`
-width: 46%;
-height:100vh;
-
-`;
-const ProfileDetailsContainer = styled.div`
-height:100vh;
-width: 22%;
 `;
 const LogoContainer = styled.div`
 display: flex;
@@ -159,63 +137,17 @@ border-radius: 50%;
 `;
 
 const ProfileContainer = styled.div`
-width: 24%;
+width: 75%;
 min-width: 400px;
-height:100vh;
+min-height: 100vh;
+height: auto;
 background-color: #161B1C;
 border-right: 1px solid #252C2E;
 border-left: 1px solid #252C2E;
 
 `;
-const MyProfileContainer = styled.div`
-height: 15%;
-display: flex;
-padding:32px;
-border-bottom: 1px solid #252C2E;
-box-sizing: border-box;
-`;
 
-const ProfileImageContainer = styled.div`
-width: 20%;
-border-radius: 50%;
-margin-right: 16px;
 
-`;
-
-const ProfileImage = styled.img`
-width: 100%;
-border-radius: 50%;
-`;
-
-const NameContainer = styled.div`
-
-`;
-
-const ProfileHeadeing = styled.h2`
-color: #fff;
-font-weight: 500;
-margin:6px 0 ;
-`;
-
-const SpanAccount = styled.span`
-color:#a7a7a7;
-`;
-
-const RoundIconContainerDots = styled.div`
-margin-left: 44px;
-width:60px;
-height: 60px;
-border-radius: 50%;
-border: 1px solid #252C2E;
-display: flex;
-justify-content: center;
-align-items: center;
-`;
-
-const Dots = styled.img`
-width: 60%;
-display: block;
-`;
 
 
 
