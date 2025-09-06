@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import OnlineFriends from './OnlineFriends';
-function home() {
+function Home() {
   return (
     <HomeContainer>
         <Wrapper>
@@ -152,4 +152,4 @@ border-left: 1px solid #252C2E;
 
 
 
-export default home
+export default Home

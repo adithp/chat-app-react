@@ -163,7 +163,7 @@ let TypingorTag = (contact)=>{
 let MessageContact = ()=> {
 
     return myContacts.map((contact)=>(
-        <>
+        <React.Fragment key={contact.id}>
         <Contact>
             <ContactImageSection>
                 <ContactImage src={contact.image}/>
@@ -179,7 +179,7 @@ let MessageContact = ()=> {
             </TimingSection>
         </Contact>
 
-        </>
+        </React.Fragment>
     ))
         
 }
