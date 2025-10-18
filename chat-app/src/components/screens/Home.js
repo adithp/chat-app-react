@@ -18,7 +18,7 @@ function home() {
                     <ControlImage src={require("../../Assets/images/Property 1=phone.svg").default} alt="phoneicon" />
                   </ControlItem>
                 <ControlItem>
-                    <ControlImage src={require("../../Assets/images/Property 1=video-camera.svg").default} alt="Property 1=video-camera"/>
+                    <ControlImage src={require("../../Assets/images/Property 1=video-camera.svg").default} alt="Property video camera"/>
                 </ControlItem>
                 <ControlItem>
                   <ControlImage src={require("../../Assets/images/Property 1=users.svg").default} alt="Property 1=users"/>
