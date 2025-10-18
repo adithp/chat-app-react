@@ -12,7 +12,7 @@ function home() {
               </LogoContainer>
               <ListControls>
                 <ControlItem>
-                    <ControlImage className='Leftimagesize' src={require("../../Assets/images/chats.svg").default} alt="chats" />
+                    <ControlImage className='Leftimagesize' src={require("../../Assets/images/chats.svg").default} alt="chats-image" />
                 </ControlItem>
                 <ControlItem>
                     <ControlImage src={require("../../Assets/images/Property 1=phone.svg").default} alt="phoneicon" />
