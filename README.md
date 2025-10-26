@@ -1,7 +1,7 @@
 💬 Chat App Frontend
 A modern, responsive chat application frontend built with React. This project focuses on delivering a seamless, real-time messaging experience and serves as a strong portfolio piece demonstrating advanced React component architecture and state management.
 
-🚀 Key Features (Planned)
+Key Features (Planned)
 Real-Time Messaging: Instant message sending and receiving.
 
 User Interface: Clean, intuitive UI/UX with dark mode support.
