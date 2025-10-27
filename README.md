@@ -12,7 +12,7 @@ Responsive Design: Optimized for desktop and mobile use.
 
 🛠️ Technology Stack
 Category	Technology	Purpose
-Frontend	⚛️ React	Core library for building the user interface.
+Frontend	 React	Core library for building the user interface.
 Styling	CSS Modules / Tailwind (Adjust as needed)	Modern, component-based styling.
 State	useState / useReducer	Local state management.
 Real-Time	WebSockets / Socket.IO (Integration planned)	For instant message updates.
